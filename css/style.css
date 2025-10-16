@@ -105,8 +105,8 @@ header.scrolled {
     }
 
 .logo-mark {
-  width: 64px;          /* increased from 48px */
-  height: 64px;         /* increased from 48px */
+  width: 70px;          /* increased from 48px */
+  height: 70px;         /* increased from 48px */
   border-radius: 50%;   /* keep circular */
   display: flex;
   align-items: center;
