@@ -69,6 +69,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
+
 <body>
   <!-- WhatsApp Float -->
   <a class="whatsapp-float" href="https://wa.me/919226400976?text=Hello%20Mechanical%20Bazaar%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products" target="_blank" aria-label="Chat on WhatsApp">
@@ -84,20 +86,19 @@
     <div class="container header-inner">
       <div class="logo" id="goHome">
         <div class="logo-mark">
-          <img src="assets/images/logo.png" alt="Mechanical Bazaar Logo">
+          <img src="assets/images/logo.png" alt="MB Logo">
         </div>
         <div class="logo-txt">
           <div class="title">Mechanical Bazaar</div>
-          <div class="tag">Your Trusted Mechanical Marketplace</div>
+          <div class="tag">Your Trusted Marketplace</div>
         </div>
       </div>
 
       <nav>
-        <ul class="nav-menu">
+        <ul class="nav-menu" id="navMenu">
           <li><a class="nav-link" href="#home">Home</a></li>
           <li><a class="nav-link" href="#products">Products</a></li>
           <li><a class="nav-link" href="#connect">Connect</a></li>
-          <li><a class="nav-link" href="#testimonials">Testimonials</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
           <li><a class="btn btn-whatsapp" href="https://wa.me/919226400976?text=Hello%20Mechanical%20Bazaar" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
         </ul>
@@ -149,7 +150,7 @@
     <!-- Products -->
     <section class="section" id="products">
       <div class="container">
-        <div class="section-title reveal">
+        <div class="section-title">
           <div class="section-badge">
             <i class="fas fa-boxes"></i>
             <span>Our Products</span>
@@ -159,9 +160,10 @@
         </div>
 
         <div class="products-grid">
-          <article class="product-card reveal">
+          <article class="product-card">
             <div class="product-img">
-              <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=80" alt="Bolts">
+                <img src="assets/images/Product/bolt.png" alt="Bolts">
+
             </div>
             <div class="product-content">
               <h3>Bolts</h3>
@@ -170,9 +172,10 @@
             </div>
           </article>
 
-          <article class="product-card reveal">
+          <article class="product-card">
             <div class="product-img">
-              <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=1200&q=80" alt="Nuts">
+                <img src="assets/images/Product/nuts.png" alt="nuts">
+
             </div>
             <div class="product-content">
               <h3>Nuts</h3>
@@ -181,9 +184,10 @@
             </div>
           </article>
 
-          <article class="product-card reveal">
+          <article class="product-card">
             <div class="product-img">
-              <img src="https://images.unsplash.com/photo-1635241161466-541f065683ba?auto=format&fit=crop&w=1200&q=80" alt="Washers">
+                <img src="assets/images/Product/bolt.png" alt="End washer">
+
             </div>
             <div class="product-content">
               <h3>Washers</h3>
@@ -192,9 +196,10 @@
             </div>
           </article>
 
-          <article class="product-card reveal">
+          <article class="product-card">
             <div class="product-img">
-              <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80" alt="End Clamp">
+                <img src="assets/images/Product/endclamp.png" alt="End Clamp">
+
             </div>
             <div class="product-content">
               <h3>End Clamp</h3>
@@ -203,24 +208,14 @@
             </div>
           </article>
 
-          <article class="product-card reveal">
+          <article class="product-card">
             <div class="product-img">
-              <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80" alt="Mid Clamp">
+                <img src="assets/images/Product/midclamp.png" alt="MidClamp">
+
             </div>
             <div class="product-content">
               <h3>Mid Clamp</h3>
               <p>Holds adjacent solar panels together, ensuring alignment and structural stability in the array.</p>
-              <a class="btn btn-primary" href="#contact">Request Quote</a>
-            </div>
-          </article>
-
-          <article class="product-card reveal">
-            <div class="product-img">
-              <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=1200&q=80" alt="Fasteners">
-            </div>
-            <div class="product-content">
-              <h3>Custom Fasteners</h3>
-              <p>Specialized fasteners manufactured to your exact specifications and requirements.</p>
               <a class="btn btn-primary" href="#contact">Request Quote</a>
             </div>
           </article>
@@ -231,7 +226,7 @@
     <!-- Connect -->
     <section class="section connect" id="connect">
       <div class="container">
-        <div class="section-title reveal">
+        <div class="section-title">
           <div class="section-badge">
             <i class="fas fa-handshake"></i>
             <span>Network</span>
@@ -241,14 +236,14 @@
         </div>
 
         <div class="connect-cards">
-          <div class="connect-card reveal">
+          <div class="connect-card">
             <div class="connect-icon"><i class="fas fa-industry"></i></div>
             <h3>Manufacturers</h3>
             <p>Showcase your products to a wide network of buyers and get consistent orders with transparent pricing and reliable payments.</p>
             <a class="btn btn-outline mt-12" href="#contact">Join Now</a>
           </div>
 
-          <div class="connect-card reveal">
+          <div class="connect-card">
             <div class="connect-icon"><i class="fas fa-shopping-cart"></i></div>
             <h3>Buyers</h3>
             <p>Find reliable manufacturers and bulk suppliers for all your fastener needs with competitive pricing and quality assurance.</p>
@@ -261,7 +256,7 @@
     <!-- Testimonials -->
     <section class="section testimonials" id="testimonials">
       <div class="container">
-        <div class="section-title reveal">
+        <div class="section-title">
           <div class="section-badge">
             <i class="fas fa-quote-left"></i>
             <span>Testimonials</span>
@@ -276,7 +271,7 @@
               <div class="testimonial-content">
                 <p class="testimonial-text">Mechanical Bazaar has transformed our sourcing process. We now get quality fasteners at competitive prices with reliable delivery timelines.</p>
                 <div class="testimonial-author">
-                  <div class="author-avatar"><img src="https://media.licdn.com/dms/image/v2/D4D03AQF3bzzB1LiLKg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702476567098?e=1762992000&v=beta&t=A6gufqVWwxrxtPScyYFtaqFTHuFs1II5_X_VBo9TodA" alt="Gourav Soni"></div>
+                  <div class="author-avatar"><img src="https://ui-avatars.com/api/?name=Gourav+Soni&background=00d4aa&color=0a2540&size=128" alt="Gourav Soni"></div>
                   <div>
                     <div class="author-name">Gourav Soni</div>
                     <div class="author-role">Director at PARSEC POWER</div>
@@ -289,7 +284,7 @@
               <div class="testimonial-content">
                 <p class="testimonial-text">As a manufacturer, connecting with genuine buyers was always a challenge. Mechanical Bazaar solved that problem for us.</p>
                 <div class="testimonial-author">
-                  <div class="author-avatar"><img src="https://media.licdn.com/dms/image/v2/C5103AQG5c5OczEAKaw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1576644674714?e=1762992000&v=beta&t=3OQA1S5RUES8-XhvmnakrUAS8jDFLqh1HuoVCbkota4" alt="Vishal Chaturani"></div>
+                  <div class="author-avatar"><img src="https://ui-avatars.com/api/?name=Vishal+Chaturani&background=00d4aa&color=0a2540&size=128" alt="Vishal Chaturani"></div>
                   <div>
                     <div class="author-name">Vishal Chaturani</div>
                     <div class="author-role">Manager - Supplier Quality at Morris Garages India</div>
@@ -302,7 +297,7 @@
               <div class="testimonial-content">
                 <p class="testimonial-text">The platform is easy to use and the team is very responsive. We've expanded our client base significantly since joining.</p>
                 <div class="testimonial-author">
-                  <div class="author-avatar"><img src="https://media.licdn.com/dms/image/v2/C5103AQFaHrIh-_yfYA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1538035520007?e=1762992000&v=beta&t=r95mLbDuHReww9FNgzKj60gozc-bovLIlnO6Xa_DC8o" alt="C.S. Sandeep"></div>
+                  <div class="author-avatar"><img src="https://ui-avatars.com/api/?name=CS+Sandeep&background=00d4aa&color=0a2540&size=128" alt="C.S. Sandeep"></div>
                   <div>
                     <div class="author-name">C.S. Sandeep</div>
                     <div class="author-role">Asst. Business Manager at Armacell</div>
@@ -328,7 +323,7 @@
     <!-- Contact -->
     <section class="section" id="contact">
       <div class="container">
-        <div class="section-title reveal">
+        <div class="section-title">
           <div class="section-badge">
             <i class="fas fa-envelope"></i>
             <span>Get In Touch</span>
@@ -339,7 +334,7 @@
 
         <div class="contact-grid">
           <div class="contact-info">
-            <a href="tel:+919226400976" class="contact-item" style="text-decoration: none; color: inherit; cursor: pointer;">
+            <a href="tel:+919226400976" class="contact-item">
               <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
               <div class="contact-details">
                 <h4>Phone Number</h4>
@@ -347,7 +342,7 @@
               </div>
             </a>
 
-            <a href="mailto:mechanicalbazaar@gmail.com" class="contact-item" style="text-decoration: none; color: inherit; cursor: pointer;">
+            <a href="mailto:mechanicalbazaar@gmail.com" class="contact-item">
               <div class="contact-icon"><i class="fas fa-envelope"></i></div>
               <div class="contact-details">
                 <h4>Email Address</h4>
@@ -355,7 +350,7 @@
               </div>
             </a>
 
-            <a href="https://wa.me/919226400976?text=Hello%20Mechanical%20Bazaar" target="_blank" class="contact-item" style="text-decoration: none; color: inherit; cursor: pointer;">
+            <a href="https://wa.me/919226400976?text=Hello%20Mechanical%20Bazaar" target="_blank" class="contact-item">
               <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
               <div class="contact-details">
                 <h4>WhatsApp</h4>
@@ -368,28 +363,28 @@
             <div class="form-group">
               <label for="name">Your Name</label>
               <input id="name" class="form-control" type="text" name="name" placeholder="John Doe" required>
-              <small class="error-msg" style="color:#ff6b6b;display:none;margin-top:6px;font-size:0.9rem">Please enter your name</small>
+              <small class="error-msg">Please enter your name</small>
             </div>
 
             <div class="form-group">
               <label for="email">Your Email</label>
               <input id="email" class="form-control" type="email" name="email" placeholder="name@company.com" required>
-              <small class="error-msg" style="color:#ff6b6b;display:none;margin-top:6px;font-size:0.9rem">Enter a valid email</small>
+              <small class="error-msg">Enter a valid email</small>
             </div>
 
             <div class="form-group">
               <label for="subject">Subject</label>
               <input id="subject" class="form-control" type="text" name="subject" placeholder="Product Inquiry" required>
-              <small class="error-msg" style="color:#ff6b6b;display:none;margin-top:6px;font-size:0.9rem">Please add a subject</small>
+              <small class="error-msg">Please add a subject</small>
             </div>
 
             <div class="form-group">
               <label for="message">Your Message</label>
               <textarea id="message" class="form-control" name="message" placeholder="How can we help you?" required></textarea>
-              <small class="error-msg" style="color:#ff6b6b;display:none;margin-top:6px;font-size:0.9rem">Please write a message</small>
+              <small class="error-msg">Please write a message</small>
             </div>
 
-            <div style="display:flex;gap:14px;flex-wrap:wrap">
+            <div style="display:flex;gap:12px;flex-wrap:wrap">
               <button class="btn btn-primary" type="submit">Send Message</button>
               <a class="btn btn-whatsapp" href="https://wa.me/919226400976?text=Hello%20Mechanical%20Bazaar" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
             </div>
@@ -406,10 +401,9 @@
             <h3>Mechanical Bazaar</h3>
             <p>Connecting manufacturers and buyers across the mechanical industry with efficiency and reliability.</p>
             <div class="social-links">
-              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/mechanical-bazaar/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://wa.me/919226400976?text=Hello%20Mechanical%20Bazaar" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+              <a href="tel:+919226400976" aria-label="Call"><i class="fas fa-phone-alt"></i></a>
             </div>
           </div>
 
@@ -419,7 +413,6 @@
               <li><a href="#home">Home</a></li>
               <li><a href="#products">Products</a></li>
               <li><a href="#connect">Connect</a></li>
-              <li><a href="#testimonials">Testimonials</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -427,26 +420,26 @@
           <div class="footer-col">
             <h3>Products</h3>
             <ul>
-              <li><a href="#">Screws</a></li>
-              <li><a href="#">Bolts</a></li>
-              <li><a href="#">Nuts</a></li>
-              <li><a href="#">Washers</a></li>
-              <li><a href="#">Clamps</a></li>
+              <li><a href="#products">Bolts</a></li>
+              <li><a href="#products">Nuts</a></li>
+              <li><a href="#products">Washers</a></li>
+              <li><a href="#products">End Clamp</a></li>
+              <li><a href="#products">Mid Clamp</a></li>
             </ul>
           </div>
 
           <div class="footer-col">
             <h3>Contact Info</h3>
             <ul>
-              <li style="display:flex;gap:10px"><i class="fas fa-map-marker-alt" style="color:var(--secondary);margin-top:4px"></i> Mumbai, India</li>
-              <li style="display:flex;gap:10px"><i class="fas fa-phone-alt" style="color:var(--secondary);margin-top:4px"></i> <a href="tel:+919226400976" style="color:rgba(255,255,255,0.7);text-decoration:none">+91 92264 00976</a></li>
-              <li style="display:flex;gap:10px"><i class="fas fa-envelope" style="color:var(--secondary);margin-top:4px"></i> <a href="mailto:mechanicalbazaar@gmail.com" style="color:rgba(255,255,255,0.7);text-decoration:none">mechanicalbazaar@gmail.com</a></li>
+              <li style="display:flex;gap:10px;align-items:center"><i class="fas fa-phone-alt" style="color:var(--secondary)"></i> <a href="tel:+919226400976" style="color:rgba(255,255,255,0.7)">+91 92264 00976</a></li>
+              <li style="display:flex;gap:10px;align-items:center"><i class="fas fa-envelope" style="color:var(--secondary)"></i> <a href="mailto:mechanicalbazaar@gmail.com" style="color:rgba(255,255,255,0.7)">mechanicalbazaar@gmail.com</a></li>
             </ul>
           </div>
         </div>
 
         <div class="copyright">
           <small>&copy; <span id="year"></span> Mechanical Bazaar. All rights reserved.</small>
+          <span class="developer">Developed by <a href="https://rishijain21.github.io/rishi-jain/" target="_blank">Rishi Jain</a></span>
         </div>
       </div>
     </footer>
@@ -455,7 +448,8 @@
   <!-- Toast -->
   <div id="toast">Message sent! We'll get back shortly.</div>
 
-   <script src="js/main.js"></script>
 
 </body>
+
+
 </html>
