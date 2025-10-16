@@ -87,67 +87,69 @@ header.scrolled {
   backdrop-filter: blur(20px) saturate(180%);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform var(--transition);
+}
 
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      cursor: pointer;
-      user-select: none;
-      transition: transform var(--transition);
-    }
+.logo:hover {
+  transform: translateX(4px);
+}
 
-
-    
-
-    .logo:hover {
-      transform: translateX(4px);
-    }
+/* Logo container */
 .logo-mark {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(255,255,255,0.15), rgba(255,255,255,0.05));
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255,255,255,0.2);
-  box-shadow: 0 4px 16px rgba(0,212,170,0.2);
+  background: transparent;
+  overflow: hidden; /* ensures image stays cleanly cropped */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   flex-shrink: 0;
-  padding: 0; /* remove padding to maximize image area */
-  transition: transform var(--transition);
+  padding: 0;
+  position: relative;
 }
 
+/* Image inside logo */
 .logo-mark img {
-  width: 85%;       /* fill most of the circle */
-  height: 85%;      /* maintain aspect ratio inside circle */
-  object-fit: contain; /* keep logo proportions */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;        /* slightly smaller to compensate for uneven edges */
+  height: 90%;
+  transform: translate(-50%, -50%); /* perfectly centers image */
+  object-fit: contain;
   border-radius: 50%;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+  display: block;
 }
 
+/* Logo text */
+.logo-txt .title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
 
-    .logo-txt .title {
-      font-size: 1.2rem;
-      font-weight: 800;
-      color: #fff;
-      letter-spacing: -0.5px;
-    }
+.logo-txt .tag {
+  font-size: 0.7rem;
+  color: var(--secondary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
-    .logo-txt .tag {
-      font-size: 0.65rem;
-      color: var(--secondary);
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-
-    nav {
-      display: flex;
-      align-items: center;
-      gap: 24px;
-    }
+nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 
     .nav-menu {
       display: flex;
