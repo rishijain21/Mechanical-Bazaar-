@@ -103,11 +103,10 @@ header.scrolled {
     .logo:hover {
       transform: translateX(4px);
     }
-
 .logo-mark {
-  width: 70px;          /* increased from 48px */
-  height: 70px;         /* increased from 48px */
-  border-radius: 50%;   /* keep circular */
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,14 +115,14 @@ header.scrolled {
   border: 1px solid rgba(255,255,255,0.2);
   box-shadow: 0 4px 16px rgba(0,212,170,0.2);
   flex-shrink: 0;
-  padding: 8px;         /* slightly increased for larger container */
+  padding: 0; /* remove padding to maximize image area */
   transition: transform var(--transition);
 }
 
 .logo-mark img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+  width: 85%;       /* fill most of the circle */
+  height: 85%;      /* maintain aspect ratio inside circle */
+  object-fit: contain; /* keep logo proportions */
   border-radius: 50%;
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
 }
