@@ -460,7 +460,7 @@ header.scrolled {
 .product-img img {
   width: 100%;          /* image fills container width */
   height: 100%;         /* image fills container height */
-  object-fit: contain;    /* maintain aspect ratio, crop if necessary */
+  object-fit: cover;    /* maintain aspect ratio, crop if necessary */
   object-position: center;
   display: block;
   z-index: 0;           /* make sure overlay is on top */
@@ -1102,8 +1102,8 @@ header.scrolled {
       }
 
       .logo-mark {
-        width: 42px;
-        height: 42px;
+        width: 55px;
+        height: 55px;
         font-size: 1.2rem;
       }
 
