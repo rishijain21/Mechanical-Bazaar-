@@ -1,132 +1,120 @@
-# 🏭 Mechanical Bazaar  
-### A Modern B2B Mechanical Procurement Platform
+# 🏭 Mechanical Bazaar
 
-Mechanical Bazaar is a professional B2B platform designed to streamline the sourcing of mechanical and industrial components.  
-It connects manufacturers and buyers, enabling efficient procurement of fasteners, industrial tools, solar mounting components, and more through a clean, business-oriented digital interface.
+> A professional B2B website designed, developed & delivered for a real industrial client
 
----
-
-## 📌 Project Overview
-
-Mechanical Bazaar solves key industry problems such as fragmented supplier networks, inconsistent communication, and lack of transparency in pricing.  
-The platform provides:
-
-- A curated product catalog  
-- Easy quotation requests  
-- Direct buyer–manufacturer engagement  
-- A strong trust-building interface with testimonials and business statistics  
+[![Live Site](https://img.shields.io/badge/Live-Website-brightgreen?style=flat-square&logo=google-chrome)](https://www.mechanicalbazaar.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-rishijain21-black?style=flat-square&logo=github)](https://github.com/rishijain21)
 
 ---
 
-## 🎯 Core Features
+## 🌐 Live Website
 
-### **Product Catalog**
-- Bolts  
-- Nuts  
-- Washers  
-- End Clamp  
-- Mid Clamp  
-Each product includes descriptions and a “Request Quote” option tailored for B2B workflows.
+👉 **[www.mechanicalbazaar.com](https://www.mechanicalbazaar.com/)**
 
-### **Business Network Section**
-- Dedicated modules for **Manufacturers** and **Buyers**
-- Clear value propositions for each audience
-- Optimized CTAs to improve conversions and engagement
+---
 
-### **User Interaction**
-- Integrated contact form  
-- WhatsApp chat integration  
-- Simple, intuitive navigation  
+## 📌 About The Project
 
-### **Brand Trust Elements**
-- Testimonials from industry professionals  
-- Business metrics (active partners, satisfaction rate)  
-- Professional layout and content structure  
+**Mechanical Bazaar** is a real client project — a fully designed, developed, and delivered B2B website for an industrial mechanical components business. The client required a professional digital presence to connect with manufacturers and bulk buyers online.
 
+> 💼 **Type:** Freelance Client Project
+> 🚀 **Status:** Live & Deployed
+> 🌐 **Domain:** mechanicalbazaar.com
 
-## 🧩 System Architecture
+---
 
-This project adopts a modular, component-driven architecture suitable for scalable static frontend applications.
+## 🎯 Client Requirements & Solution
 
-├── Presentation Layer (UI/UX)
-│ ├── index.html - Page structure & content layout
-│ ├── css/ - Modular stylesheets
-│ ├── js/ - Interactivity scripts & utilities
-│ └── assets/ - Media resources (images, icons)
-│
-└── Application Layer (Frontend Logic)
-├── Navigation handlers
-├── Component scripts (cards, sliders, testimonials)
-├── Form interactions (contact & quote forms)
-└── Reusable UI behaviors
+| Client Need | Solution Delivered |
+|---|---|
+| Professional online presence | Clean, modern B2B UI |
+| Showcase product catalog | Structured product pages with quote requests |
+| Connect buyers & manufacturers | Dedicated sections with clear CTAs |
+| Mobile-friendly website | Fully responsive across all devices |
+| Fast communication channel | WhatsApp chat + Contact form integration |
+| Build brand trust | Testimonials & business metrics section |
 
-### **Design Principles**
-- Mobile-first responsive design  
-- Clean, modern B2B UI  
-- Modular CSS architecture  
-- Reusable components for maintainability  
-- Lightweight JavaScript with no external frameworks  
+---
+
+## 🔩 Product Catalog Covered
+
+- **Bolts** — Industrial grade, bulk available
+- **Nuts** — Multiple sizes & standards
+- **Washers** — Flat, spring & lock variants
+- **End Clamp** — Solar mounting compatible
+- **Mid Clamp** — Solar mounting compatible
+
+Each product includes a **"Request Quote"** option tailored for B2B workflows.
 
 ---
 
 ## 🛠️ Tech Stack
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
 | Layer | Technology |
-|-------|------------|
+|---|---|
 | Structure | HTML5 |
-| Styling | CSS3 (responsive layout, modular components) |
+| Styling | CSS3 — responsive layout, modular components |
 | Scripting | Vanilla JavaScript (ES6+) |
-| Assets | Optimized PNG/SVG media files |
+| Assets | Optimized PNG/SVG media |
+| Hosting | GitHub Pages + Custom Domain (mechanicalbazaar.com) |
 
 ---
 
-## 📂 Folder Structure
+## 📁 Project Structure
 
+```
 Mechanical-Bazaar/
 │
-├── index.html # Main entry point
+├── index.html              # Main entry point
 │
 ├── css/
-│ ├── style.css # Base styles
-│ └── responsive.css # Breakpoints & responsive design
+│   ├── style.css           # Base styles
+│   └── responsive.css      # Breakpoints & responsive design
 │
 ├── js/
-│ ├── main.js # UI interactions
-│ └── utils.js # Helper functions
+│   ├── main.js             # UI interactions
+│   └── utils.js            # Helper functions
 │
 └── assets/
-├── images/ # Product images & banners
-└── icons/ # Logos & vector icons
----
-
-## 📈 Business Impact
-
-Mechanical Bazaar is crafted to support:
-
-- Manufacturers showcasing industrial products digitally  
-- Buyers looking for reliable, bulk procurement channels  
-- Companies seeking faster quotation cycles and vendor engagement  
-
-### Platform Benefits:
-- Simplified sourcing workflow  
-- Centralized product discovery  
-- Faster communication between buyers & suppliers  
-- Professional online presence for industrial businesses  
+    ├── images/             # Product images & banners
+    └── icons/              # Logos & vector icons
+```
 
 ---
 
-## 🧪 Future Enhancements
+## ✨ Key Highlights
 
-- Manufacturer dashboard with product management  
-- Role-based authentication  
-- Quote tracking & inquiry history  
-- Analytics for manufacturers  
-- API-integrated dynamic product catalog  
-
----
-
-## 👨‍💻 Developed By  
-**Rishi Jain**
+- 📱 **Mobile-first** responsive design
+- 💬 **WhatsApp integration** for instant buyer communication
+- 📋 **Quote request system** for B2B procurement workflow
+- 🏆 **Trust elements** — testimonials & business statistics
+- ⚡ **Zero dependencies** — pure HTML/CSS/JS for maximum performance
+- 🌐 **Custom domain** deployed & live
 
 ---
 
+## 🔮 Planned Enhancements (Phase 2)
+
+- [ ] Manufacturer dashboard with product management
+- [ ] Role-based authentication for buyers & sellers
+- [ ] Quote tracking & inquiry history
+- [ ] Analytics dashboard for the client
+- [ ] API-integrated dynamic product catalog
+
+---
+
+## 👨‍💻 Developed By
+
+**Rishi Jain** — Software Developer at Infosys
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rishi--jainn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/rishi-jainn/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-orange?style=flat-square&logo=github)](https://rishijain21.github.io/rishi-jain/)
+[![GitHub](https://img.shields.io/badge/GitHub-rishijain21-black?style=flat-square&logo=github)](https://github.com/rishijain21)
+
+---
+
+<p align="center">Designed, Developed & Delivered by <strong>Rishi Jain</strong></p>
